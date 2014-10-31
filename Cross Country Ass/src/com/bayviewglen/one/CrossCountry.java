@@ -136,14 +136,14 @@ public class CrossCountry {
 		String ySplitErSeconds = formatter1.format((ySplitEr) % SECONDS_IN_MIN);
 		int ySplitThreeMinute = (int) (ySplitThree) / SECONDS_IN_MIN;
 		String ySplitThreeSeconds = formatter1.format((ySplitThree) % SECONDS_IN_MIN);
-		String yFiveKilo = formatter1.format(yMFSeconds);
+		String yFiveKilo = formatter1.format(yWMFSeconds);
 
 		String yFinalSY = (ySplitYiMinute + ":" + ySplitYiSecond);
 		String yFinalSE = (ySplitErMinute + ":" + ySplitErSeconds);
 		String yFinalSS = (ySplitThreeMinute + ":" + ySplitThreeSeconds);
 		String yFinalFiveKilo = (yFMFMinutes + ":" + yFiveKilo);
 
-		System.out.println("\nFirst Runner Summary" + "\n++++++++++++++++++++++++++++++");
+		System.out.println("\nSecond Runner Summary" + "\n++++++++++++++++++++++++++++++");
 		System.out.println("Running Man:  " + yLast + "," + yFirst);
 		System.out.println("Split 1: " + yFinalSY);
 		System.out.println("Split 2: " + yFinalSE);
@@ -202,7 +202,7 @@ public class CrossCountry {
 		String zFinalSS = (zSplitThreeMinute + ":" + zSplitThreeSeconds);
 		String zFinalFiveKilo = (zFMFMinutes + ":" + zFiveKilo);
 
-		System.out.println("\nFirst Runner Summary" + "\n++++++++++++++++++++++++++++++");
+		System.out.println("\nThirds Runner Summary" + "\n++++++++++++++++++++++++++++++");
 		System.out.println("Running Man:  " + zLast + "," + zFirst);
 		System.out.println("Split 1: " + zFinalSY);
 		System.out.println("Split 2: " + zFinalSE);
@@ -254,14 +254,14 @@ public class CrossCountry {
 		String vSplitErSeconds = formatter3.format((vSplitEr) % SECONDS_IN_MIN);
 		int vSplitThreeMinute = (int) (vSplitThree) / SECONDS_IN_MIN;
 		String vSplitThreeSeconds = formatter3.format((vSplitThree) % SECONDS_IN_MIN);
-		String vFiveKilo = formatter3.format(vMFSeconds);
+		String vFiveKilo = formatter3.format(vWMFSeconds);
 
 		String vFinalSY = (vSplitYiMinute + ":" + vSplitYiSecond);
 		String vFinalSE = (vSplitErMinute + ":" + vSplitErSeconds);
 		String vFinalSS = (vSplitThreeMinute + ":" + vSplitThreeSeconds);
 		String vFinalFiveKilo = (vFMFMinutes + ":" + vFiveKilo);
 
-		System.out.println("\nFirst Runner Summary" + "\n++++++++++++++++++++++++++++++");
+		System.out.println("\nForth Runner Summary" + "\n++++++++++++++++++++++++++++++");
 		System.out.println("Running Man:  " + vLast + "," + vFirst);
 		System.out.println("Split 1: " + vFinalSY);
 		System.out.println("Split 2: " + vFinalSE);
@@ -313,14 +313,14 @@ public class CrossCountry {
 		String wSplitErSeconds = formatter4.format((wSplitEr) % SECONDS_IN_MIN);
 		int wSplitThreeMinute = (int) (wSplitThree) / SECONDS_IN_MIN;
 		String wSplitThreeSeconds = formatter4.format((wSplitThree) % SECONDS_IN_MIN);
-		String wFiveKilo = formatter4.format(wMFSeconds);
+		String wFiveKilo = formatter4.format(wWMFSeconds);
 
 		String wFinalSY = (wSplitYiMinute + ":" + wSplitYiSecond);
 		String wFinalSE = (wSplitErMinute + ":" + wSplitErSeconds);
 		String wFinalSS = (wSplitThreeMinute + ":" + wSplitThreeSeconds);
 		String wFinalFiveKilo = (wFMFMinutes + ":" + wFiveKilo);
 
-		System.out.println("\nFirst Runner Summary" + "\n++++++++++++++++++++++++++++++");
+		System.out.println("\nFifth Runner Summary" + "\n++++++++++++++++++++++++++++++");
 		System.out.println("Running Man:  " + wLast + "," + wFirst);
 		System.out.println("Split 1: " + wFinalSY);
 		System.out.println("Split 2: " + wFinalSE);
