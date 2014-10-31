@@ -13,7 +13,7 @@ package com.bayviewglen.one;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Three {
+public class CrossCountry {
 
 	final static int SECONDS_IN_MIN = 60;
 
